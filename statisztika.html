@@ -1,0 +1,156 @@
+﻿<!DOCTYPE html>
+<html lang="en" manifest="cache.appcache">
+<head>
+  <meta charset="utf-8">
+  <title>10000 Ft Statisztika</title>
+
+  <link href="style/main.css" rel="stylesheet" type="text/css">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+  <meta property="og:title" content="10000ft game"/>
+  <meta property="og:site_name" content="10000ft game"/>
+  <meta property="og:description" content="Tologasd a pénzeket, amíg el nem éred a tízezrest!"/>
+  <meta property="og:image" content="http://gabrielecirulli.github.io/2048/meta/og_image.png"/>
+  <script src='https://cdn.firebase.com/js/client/1.0.11/firebase.js'></script>
+
+
+</head>
+<body>
+
+ <script language="JavaScript">
+  var rootRef = new Firebase('https://10000-ft.firebaseio.com/');
+  var RefRekord = rootRef.child("rekord");
+  var RefJatekszam = rootRef.child("jatekszam");
+  var Ref500 = rootRef.child("500_elerve");
+  var Ref1000 = rootRef.child("1000_elerve");
+  var Ref2000 = rootRef.child("2000_elerve");
+  var Ref5000 = rootRef.child("5000_elerve");
+  var Ref10000 = rootRef.child("10000_elerve");
+  var Ref20000 = rootRef.child("20000_elerve");
+ var RefNehezRekord = rootRef.child("nehez_rekord");
+  var RefNehezJatekszam = rootRef.child("nehez_jatekszam");
+  var RefNehez500 = rootRef.child("nehez_500_elerve");
+  var RefNehez1000 = rootRef.child("nehez_1000_elerve");
+  var RefNehez2000 = rootRef.child("nehez_2000_elerve");
+  var RefNehez5000 = rootRef.child("nehez_5000_elerve");
+  var RefNehez10000 = rootRef.child("nehez_10000_elerve");
+  var RefNehez20000 = rootRef.child("nehez_20000_elerve");
+
+ RefRekord.on('value', function(newHighestScore) {
+    document.getElementById("highestScoreDiv").innerHTML=newHighestScore.val();
+  });
+ RefJatekszam.on('value', function(newPlays) {
+    document.getElementById("DivPlays").innerHTML=newPlays.val();
+  });
+
+Ref500.on('value', function(newPlays) {
+    document.getElementById("Div500").innerHTML=newPlays.val();
+  });
+Ref1000.on('value', function(newPlays) {
+    document.getElementById("Div1000").innerHTML=newPlays.val();
+  });
+Ref2000.on('value', function(newPlays) {
+    document.getElementById("Div2000").innerHTML=newPlays.val();
+  });
+Ref5000.on('value', function(newPlays) {
+    document.getElementById("Div5000").innerHTML=newPlays.val();
+  });
+Ref10000.on('value', function(newPlays) {
+    document.getElementById("Div10000").innerHTML=newPlays.val();
+  });
+Ref20000.on('value', function(newPlays) {
+    document.getElementById("Div20000").innerHTML=newPlays.val();
+  });
+
+RefNehezRekord.on('value', function(newHighestScore) {
+    document.getElementById("nehez_highestScoreDiv").innerHTML=newHighestScore.val();
+  });
+ RefNehezJatekszam.on('value', function(newPlays) {
+    document.getElementById("nehez_DivPlays").innerHTML=newPlays.val();
+  });
+
+RefNehez500.on('value', function(newPlays) {
+    document.getElementById("nehez_Div500").innerHTML=newPlays.val();
+  });
+RefNehez1000.on('value', function(newPlays) {
+    document.getElementById("nehez_Div1000").innerHTML=newPlays.val();
+  });
+RefNehez2000.on('value', function(newPlays) {
+    document.getElementById("nehez_Div2000").innerHTML=newPlays.val();
+  });
+RefNehez5000.on('value', function(newPlays) {
+    document.getElementById("nehez_Div5000").innerHTML=newPlays.val();
+  });
+RefNehez10000.on('value', function(newPlays) {
+    document.getElementById("nehez_Div10000").innerHTML=newPlays.val();
+  });
+RefNehez20000.on('value', function(newPlays) {
+    document.getElementById("nehez_Div20000").innerHTML=newPlays.val();
+  });
+
+ </script>
+
+
+
+
+  <div class="container">
+    <div class="heading">
+      <h1 class="title">Statisztika</h1>
+    </div>
+    <p class="game-intro">A <a href="http://home.fazekas.hu/~benoke98/10000/">10000 Ft-os játék</a> statisztikái.</p>
+
+<hr>
+<p>
+A statisztikák 2014. április 14-től vannak.
+</p>
+<b>Normál változat</b>
+<br><br>
+ Játékok száma: <b><span id="DivPlays"></span></b> <br>
+ Ebből <b><span id="Div500"></span></b> érte el az 500-ast, <br>
+ <b><span id="Div1000"></span></b> érte el az 1000-est, <br>
+ <b><span id="Div2000"></span></b> érte el a 2000-est, <br>
+ <b><span id="Div5000"></span></b> érte el az 5000-est, <br>
+ <b><span id="Div10000"></span></b> érte el a 10000-est (és nyerte meg a játékot),<br>
+ és <b><span id="Div20000"></span></b> érte el a 20000-est! <br>
+ </p>
+ <p>
+ Az eddigi rekord <b><span id="highestScoreDiv"></span></b>.
+ </p> <br>
+<b>Nehezített változat</b>
+<br><br>
+ Játékok száma: <b><span id="nehez_DivPlays"></span></b> <br>
+ Ebből <b><span id="nehez_Div500"></span></b> érte el az 500-ast, <br>
+ <b><span id="nehez_Div1000"></span></b> érte el az 1000-est, <br>
+ <b><span id="nehez_Div2000"></span></b> érte el a 2000-est, <br>
+ <b><span id="nehez_Div5000"></span></b> érte el az 5000-est, <br>
+ <b><span id="nehez_Div10000"></span></b> érte el a 10000-est (és nyerte meg a játékot),<br>
+ és <b><span id="nehez_Div20000"></span></b> érte el a 20000-est! <br>
+ </p>
+ <p>
+ Az eddigi rekord <b><span id="nehez_highestScoreDiv"></span></b>.
+ </p> 
+<br>
+<br>
+</div>
+
+<script type="text/javascript">
+var sc_project=9719791; 
+var sc_invisible=1; 
+var sc_security="84c89d48"; 
+var scJsHost = (("https:" == document.location.protocol) ?
+"https://secure." : "http://www.");
+document.write("<sc"+"ript type='text/javascript' src='" +
+scJsHost+
+"statcounter.com/counter/counter.js'></"+"script>");
+</script>
+<noscript><div class="statcounter"><a title="látogató
+számláló" href="http://www.statcounter.hu/"
+target="_blank"><img class="statcounter"
+src="http://c.statcounter.com/9719791/0/84c89d48/1/"
+alt="látogató számláló"></a></div></noscript>
+
+
+</body>
+</html>
+
