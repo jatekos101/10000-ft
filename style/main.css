@@ -370,86 +370,86 @@ hr {
  
 
 .tile.tile-10 .tile-inner {
-    background: #ffffff url('http://www.mnb.hu/Root/Dokumentumtar/MNB/Bankjegy_es_erme/erme-fotok/Magyarorszagos_ermek/10%20Ft_rv.jpg?option=A2');
+    background: #ffffc0 url('http://www.mnb.hu/Root/Dokumentumtar/MNB/Bankjegy_es_erme/erme-fotok/Magyarorszagos_ermek/10%20Ft_rv.jpg?option=A2');
     background-size: cover;}
     
  
 
 .tile.tile-20 .tile-inner {
-    background: #ffffff url('http://www.mnb.hu/Root/Dokumentumtar/MNB/Bankjegy_es_erme/erme-fotok/Magyarorszagos_ermek/20%20Ft_rv.jpg?option=A2');
+    background: #ffff80 url('http://www.mnb.hu/Root/Dokumentumtar/MNB/Bankjegy_es_erme/erme-fotok/Magyarorszagos_ermek/20%20Ft_rv.jpg?option=A2');
     background-size: cover;}
     
   
 
 .tile.tile-50 .tile-inner {
-    background: #ffffff url('http://www.mnb.hu/Root/Dokumentumtar/MNB/Bankjegy_es_erme/erme-fotok/Magyarorszagos_ermek/50%20Ft_rv.jpg?option=A2');
+    background: #ffff00 url('http://www.mnb.hu/Root/Dokumentumtar/MNB/Bankjegy_es_erme/erme-fotok/Magyarorszagos_ermek/50%20Ft_rv.jpg?option=A2');
     background-size: cover;}
     
  
 
  .tile.tile-100 .tile-inner {
-    background: #ffffff url('http://www.mnb.hu/Root/Dokumentumtar/MNB/Bankjegy_es_erme/erme-fotok/Magyarorszagos_ermek/100%20Ft_rv.jpg?option=A2');
+    background: #ffc000 url('http://www.mnb.hu/Root/Dokumentumtar/MNB/Bankjegy_es_erme/erme-fotok/Magyarorszagos_ermek/100%20Ft_rv.jpg?option=A2');
     background-size: cover;}
     
  
 
  .tile.tile-200 .tile-inner {
-    background: #ffffff url('http://www.mnb.hu/Root/Dokumentumtar/MNB/Bankjegy_es_erme/erme-fotok/Magyarorszagos_ermek/200%20Ft_rv.jpg?option=A2');
+    background: #ff8000 url('http://www.mnb.hu/Root/Dokumentumtar/MNB/Bankjegy_es_erme/erme-fotok/Magyarorszagos_ermek/200%20Ft_rv.jpg?option=A2');
     background-size: cover;
 }
   
 
  .tile.tile-500 .tile-inner {
 
-    background: #ffffff url('http://www.mnb.hu/Root/Dokumentumtar/MNB/Bankjegy_es_erme/bankjegy-fotok/500_k.JPG?option=A2');
+    background: #ff4000 url('http://www.mnb.hu/Root/Dokumentumtar/MNB/Bankjegy_es_erme/bankjegy-fotok/500_k.JPG?option=A2');
     background-size: contain; background-repeat: no-repeat;}
     
 
 .tile.tile-1000 .tile-inner {
 
-    background: #ffffff url('http://www.mnb.hu/Root/Dokumentumtar/MNB/Bankjegy_es_erme/bankjegy-fotok/1000_k.JPG?option=A2');
+    background: #ff0000 url('http://www.mnb.hu/Root/Dokumentumtar/MNB/Bankjegy_es_erme/bankjegy-fotok/1000_k.JPG?option=A2');
     background-size: contain; background-repeat: no-repeat;}
 
 .tile.tile-2000 .tile-inner {
-    background: #ffffff url('http://www.mnb.hu/Root/Dokumentumtar/MNB/Bankjegy_es_erme/bankjegy-fotok/2000_k.JPG?option=A2');
+    background: #c00000 url('http://www.mnb.hu/Root/Dokumentumtar/MNB/Bankjegy_es_erme/bankjegy-fotok/2000_k.JPG?option=A2');
     background-size: contain; background-repeat: no-repeat;}
   
 
 .tile.tile-5000 .tile-inner {
-    background: #ffffff url('http://www.mnb.hu/Root/Dokumentumtar/MNB/Bankjegy_es_erme/bankjegy-fotok/5000_k.JPG?option=A2');
+    background: #800000 url('http://www.mnb.hu/Root/Dokumentumtar/MNB/Bankjegy_es_erme/bankjegy-fotok/5000_k.JPG?option=A2');
     background-size: contain; background-repeat: no-repeat;}
   
 
 .tile.tile-10000 .tile-inner {
-    background: #ffffff url('http://www.mnb.hu/Root/Dokumentumtar/MNB/Bankjegy_es_erme/bankjegy-fotok/10000_k.JPG?option=A2');
+    background: #400000 url('http://www.mnb.hu/Root/Dokumentumtar/MNB/Bankjegy_es_erme/bankjegy-fotok/10000_k.JPG?option=A2');
     background-size: contain; background-repeat: no-repeat;}
   
 
 .tile.tile-20000 .tile-inner {
-    background: #ffffff url('http://www.mnb.hu/Root/Dokumentumtar/MNB/Bankjegy_es_erme/bankjegy-fotok/20000_k.JPG?option=A2');
+    background: #000000 url('http://www.mnb.hu/Root/Dokumentumtar/MNB/Bankjegy_es_erme/bankjegy-fotok/20000_k.JPG?option=A2');
     background-size: contain; background-repeat: no-repeat;}
 
 .tile.tile-50000 .tile-inner {
-    background: #a0cc45; font-size: 28px;}
+    background: #000040; font-size: 28px;}
 
 .tile.tile-100000 .tile-inner {
-    background: #52d65c; font-size: 26px;}
+    background: #000080; font-size: 26px;}
 
 .tile.tile-200000 .tile-inner {
-    background: #3dad85; font-size: 26px;}
+    background: #0000c0; font-size: 26px;}
 
 .tile.tile-500000 .tile-inner {
-    background: #2985ad; color: #ffffff;  font-size: 26px;}
+    background: #0000ff; color: #ffff00;  font-size: 26px;}
 
 .tile.tile-1000000 .tile-inner {
-    background: #145cd6; color: #ffffff; font-size: 24px;}
+    background: #4000ff; color: #ffff00; font-size: 24px;}
 
 .tile.tile-2000000 .tile-inner {
-    background: #0033ff; color: #ffffff; font-size: 24px;}
+    background: #8000ff; color: #ffff00; font-size: 24px;}
   
 .tile.tile-super .tile-inner {
 
-    background: #ffffff url('http://upload.wikimedia.org/wikipedia/commons/c/c3/Euro_symbol_gold.svg');
+    background: #808080 url('http://upload.wikimedia.org/wikipedia/commons/c/c3/Euro_symbol_gold.svg');
     background-size: cover;
     font-size: 30px; }
 
